@@ -2,6 +2,7 @@
 @import url("./aboutus.css");
 
 
+/* CSS RESET - adding font family to entire document */
 * {
     margin: 0;
     padding: 0;
