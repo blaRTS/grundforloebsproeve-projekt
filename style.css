@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+h2{
+    text-align: center;
+    font-weight: 1000;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    width: 1200px;
+    justify-content: center;
+    text-align: center;
+}
+.product{
+    margin-bottom: 70px;
+}
+.product img{
+    margin-bottom: 10px;
+}
+.productHeader{
+    font-size: 18px;
+    font-weight: 1000;   
+}
+.productDesc{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.productPrice{
+    font-size: 18px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+.productBuy{
+    padding: 3px 50px;
+    background-color: #E3E3E3;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
