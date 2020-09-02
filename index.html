@@ -13,29 +13,38 @@
 <body>
     <div class="wrapper">
 
+        <!-- Start of contact section -->
         <article class="contact">
+            <!-- Contact header -->
             <h1 class="contact__header">Kontakt Kryb</h1>
+            <!-- 2 column design -->
             <section class="contact__content">
+                <!-- Left column - Text -->
                 <section class="content__text">
-
-                    <p>Velkommen til Snakken, Krybs kundeservice.
-
-                        Hos Kryb er vi altid glade for at tale med vores kunder. Faktisk så meget så vi ofte inviterer
+                    <!-- Enhanced text, larger than rest -->
+                    <p id="text__enhanced">Velkommen til Snakken, <b>Krybs</b> kundeservice.</p>
+                    <!-- rest of text -->
+                    <p>Hos Kryb er vi altid glade for at tale med vores kunder. Faktisk så meget så vi ofte inviterer
                         på
                         middag i vores byhave på Ydre Nørrebro. Men hvis du ikke kan vente til næste gang vi inviterer,
                         kan
-                        du også ringe, skrive til os her på siden eller sende en mail.
+                        du også ringe, skrive til os her på siden eller sende en mail.</p>
 
-                        Vi sidder klar til at hjælpe dig på telefon 7026 0066 søndag til onsdag fra 9 til 18, og torsdag
+                    <p>Vi sidder klar til at hjælpe dig på telefon <b>7026 0066</b> søndag til onsdag fra 9 til 18, og
+                        torsdag
                         til
                         fredag fra 9 til 17.
                         Du kan skrive til os via chat søndag til torsdag fra 9 til 22, og fredag og lørdag fra 9 til 17.
+                    </p>
 
-                        Du er også velkommen til at sende os en mail på info@kryb.dk, eller hjælpe os lidt på vej ved at
+                    <p>Du er også velkommen til at sende os en mail på <b><a href="mailto:info@kryb.dk"
+                                target="_blank">info@kryb.dk</a></b>, eller hjælpe os lidt på vej ved at
                         udfylde kontaktformular her til højre - så vender vi tilbage til dig, så snart vi kan. Vil du
                         gerne
-                        sende et billede til os, så send det i en mail på info@kryb.dk</p>
+                        sende et billede til os, så send det i en mail på <b><a href="mailto:info@kryb.dk"
+                                target="_blank">info@kryb.dk</a></b></p>
                 </section>
+                <!-- Right column - form -->
             </section>
             <section class="contact__content">
                 <form action="get" class="contact__form" id="contact__form" novalidate>
@@ -47,8 +56,9 @@
                     <span class="statusMessage email"></span>
                     <label for="msg">Besked</label>
                     <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
-                    <button id=form__submit" type="submit">Send!</button>
+                    <button id="form__submit" type="submit">Send!</button>
                 </form>
+                <!-- End of form -->
             </section>
         </article>
 

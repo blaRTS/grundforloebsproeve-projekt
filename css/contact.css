@@ -1,3 +1,5 @@
+
+/* Setting our contact to be displayed as grid */
 .contact {
     display: grid;
     width: 1200px;
@@ -9,6 +11,7 @@
         "content content";
 }
 
+/* Styling header */
 .contact__header {
     text-align: center;
     font-size: 1.5em;
@@ -16,6 +19,7 @@
     grid-area: header;
 }
 
+/* Allowing our 2 column design */
 .contact__content {
     display: grid;
     grid-area: content;
@@ -24,6 +28,7 @@
     grid-template-areas: "text form";
 }
 
+/* Styling text and assigning it to left side */
 .content__text {
     grid-area: text;
     font-size: 0.875em;
@@ -31,11 +36,13 @@
 #text__enhanced {
     font-size: 1.125em;
 }
+/* Styling links so they look normal */
 .content__text a {
     text-decoration: none;
     color: inherit;
 }
 
+/* Styling form and assigning it to right side */
 .contact__form {
     background-color: #e3e3e3;
     padding: 32px 35px 40px 29px;
@@ -44,6 +51,8 @@
     flex-direction: column;
 }
 
+
+/* Removing borders */
 #fullname,
 #email,
 #msg,
@@ -51,6 +60,8 @@
     border: none;
 }
 
+
+/* Giving font size and margin */
 #fullname,
 #email,
 label {
@@ -58,11 +69,11 @@ label {
     margin-bottom: 5px;
 }
 
-#msg {
-    margin-bottom: 22px;
-}
 
 #form__submit {
+    /* Specific margin for button to be moved */
+    margin-top: 22px;
+    /* Styling rest of button */
     align-self: flex-end;
     width: 100px;
     height: 30px;
