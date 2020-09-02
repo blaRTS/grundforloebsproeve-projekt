@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+p{
+	padding-bottom:1em;
+    line-height:1.3;
+    white-space: pre-line;
+}
+img{
+	width:100%;
+	height:auto;	
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0.5em;
+    background-color: white;
+}
+.wrapper__h1Section{
+    color: white;
+    display: grid;
+}
+.h1Section__background{
+    grid-area: 1/1/2/1;
+    align-self: center;
+}
+.h1Section__h1{
+    grid-area: 1/1/2/1;
+    align-self: center;
+    padding: 0 7em;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+}
