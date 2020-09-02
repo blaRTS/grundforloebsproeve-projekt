@@ -1,0 +1,69 @@
+.contact {
+    display: grid;
+    width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 480px);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header"
+        "content content";
+}
+
+.contact__header {
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    grid-area: header;
+}
+
+.contact__content {
+    display: grid;
+    grid-area: content;
+    column-gap: 22px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "text form";
+}
+
+.content__text {
+    grid-area: text;
+    font-size: 0.875em;
+}
+#text__enhanced {
+    font-size: 1.125em;
+}
+.content__text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact__form {
+    background-color: #e3e3e3;
+    padding: 32px 35px 40px 29px;
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+}
+
+#fullname,
+#email,
+#msg,
+#form__submit {
+    border: none;
+}
+
+#fullname,
+#email,
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#msg {
+    margin-bottom: 22px;
+}
+
+#form__submit {
+    align-self: flex-end;
+    width: 100px;
+    height: 30px;
+}
