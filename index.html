@@ -1,19 +1,162 @@
 <!DOCTYPE html>
-<html lang="da">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <title>Kryb</title>
+    <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/87c28705a7.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
+  <header>
+            <div id="head">
+                <form action="" class="searchbar">
+                    <button type="submit" class="fas fa-search"></button>
+                    <input type="search" name="search" id="search">
+                </form>
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo_small_black.png" alt="logo"></a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Forhandlere</a></li>
+                    <li><a href="#">Inspiration</a></li>
+                    <li><a href="#">Om kryb</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li class="right-nav"><a href="#"><i class="fas fa-shopping-bag"></i> ( 0 )</a></li>
+                </ul>
+            </nav>
+        </header>
     <div class="wrapper">
 
-        <!-- Start of contact section -->
+        <section class="wrapper__h1Section">
+            <img class="h1Section__background" src="/images/background.jpg" alt="Main background">
+            <h1 class="h1Section__h1">
+                <img src="/images/white-logo.png" alt="Kryb logo">
+                – ET BEDRE VALG
+            </h1>
+        </section>
+
+      
+          <h2>PRODUKTER</h2>
+    <section class="products">
+        <article class="product">
+            <img class="productImage" src="/images/card1.jpg" alt="Dare Squares">
+            <p class="productHeader">DARE SQUARES</p>
+            <p class="productDesc">med chilli, chokolade og fårekyllinger</p>
+            <p class="productPrice">49,95/stk</p>
+            <a class="productBuy" href="#">LÆG I KURV</a>
+        </article>
+        <article class="product">
+            <img class="productImage" src="/images/card2.jpg" alt="Dare Squares">
+            <p class="productHeader">INSEKTBAR</p>
+            <p class="productDesc">med dadler, nougat og insektmel</p>
+            <p class="productPrice">19,95/stk</p>
+            <a class="productBuy" href="#">LÆG I KURV</a>
+        </article>
+        <article class="product">
+            <img class="productImage" src="/images/card3.jpg" alt="Dare Squares">
+            <p class="productHeader">DARE SQUARES</p>
+            <p class="productDesc">med paenutbutter og Buffalo-orme</p>
+            <p class="productPrice">49,95/stk</p>
+            <a class="productBuy" href="#">LÆG I KURV</a>
+        </article>
+        <article class="product">
+            <img class="productImage" src="/images/card4.jpg" alt="Dare Squares">
+            <p class="productHeader">INSEKTSNACK</p>
+            <p class="productDesc">med chilli</p>
+            <p class="productPrice">39,95/stk</p>
+            <a class="productBuy" href="#">LÆG I KURV</a>
+        </article>
+        <article class="product">
+            <img class="productImage" src="/images/card5.jpg" alt="Dare Squares">
+            <p class="productHeader">INSEKTKNÆK</p>
+            <p class="productDesc">med Chiafrø og insektmel</p>
+            <p class="productPrice">29,95/stk</p>
+            <a class="productBuy" href="#">LÆG I KURV</a>
+        </article>
+        <article class="product">
+            <img class="productImage" src="/images/card5.jpg" alt="Dare Squares">
+            <p class="productHeader">INSEKTSNACK</p>
+            <p class="productDesc">med Sour Cream & Onion</p>
+            <p class="productPrice">39,95/stk</p>
+            <a class="productBuy" href="#">LÆG I KURV</a>
+        </article>
+
+    </section>
+      
+      <!-- Starting About Us section -->
+    <article class="aboutUs">
+        <!-- About us Header -->
+        <h1 class="aboutUs__header">Om Kryb</h1>
+        <!-- About us main content - Left side -->
+        <section class="aboutUs__content">
+
+            <!-- Top part that is enhanced compared to rest of text -->
+            <p class="aboutUs__enhance">Uanset hvor vi arbejder i <b>KRYB</b>, så deler vi de samme værdier og den samme mission om at skabe
+                livsglæde gennem måltidet. </p>
+                <!-- Rest of text -->
+                <p>
+                <b>KRYB</b> sigter mod at dele lækre, sunde, insektbaserede snacks, uden at gå på kompromis med smag og
+                duft.</p>
+                
+                <p>Vores sortiment har lokalt fremstillede ingredienser i deres mest naturlige form for at skabe
+                inspirerede snacks , hvor alt er lavet 100% af os selv.</p>
+                
+                <p>Vi er lidenskabelige med at tilbyde vores kunder velsmagende og nærende snacks lavet af sunde
+                ingredienser, der har en positiv indvirkning på krop og sjæl.</p>
+                
+                <p>Hos <b>KRYB</b> er vores mål simpelt - at omdefinere hvad det betyder at spise godt.</p>
+                
+                <p>Vi er forpligtede til at opretholde en bæredygtig og sund livsstil og aktivt bidrage til at sænke vores
+                CO2-fodaftryk og bevare vores planets vandforsyning gennem vores sortiment, opmærksomme ingrediensopkøb
+                og miljøvenlige emballage.</p>
+                
+                <p>Spis godt. Spis med formål. Spis <b>KRYB</b></p>
+                
+                <p>Læs mere om <b>KRYB</b> her >>></p>
+            </section>
+            <!-- About us content - right side -->
+            <section class="aboutUs__content">
+                <!-- Image content for right side -->
+                <img src='img/restaurant.jpg' alt='Kryb Restaurant'>
+            </section>
+            <!-- End of About Us Section -->
+        </article>
+      
+  
+        <h2>OPSKRIFTER</h2>
+        <section id="gallery">
+            <i id="left" class="fas fa-chevron-circle-left"></i>
+            <article class="opskrift">
+                <img src="images/opskrift0.jpg" alt="orme mad">
+                <div class="caption">
+                    <p class="caption__bold">Orme-Muffins</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur elit, eiusmod inci et ...</p>
+                </div>
+            </article>
+            <article class="opskrift">
+                <img src="images/opskrift1.jpg" lt="orme mad">
+                <div class="caption">
+                    <p class="caption__bold">Orme-Gremolata</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur elit, eiusmod inci et ...</p>
+                </div>
+            </article>
+            <article class="opskrift">
+                <img src="images/opskrift2.jpg" alt="orme mad">
+                <div class="caption">
+                    <p class="caption__bold">Orme-Boller</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur elit, eiusmod inci et ...</p>
+                </div>
+            </article>
+            <i id="right" class="fas fa-chevron-circle-right"></i>
+        </section>
+ <!-- Start of contact section -->
         <article class="contact">
             <!-- Contact header -->
             <h1 class="contact__header">Kontakt Kryb</h1>
@@ -61,8 +204,6 @@
                 <!-- End of form -->
             </section>
         </article>
-
-
     </div>
     <script src="./js/script.js"></script>
 </body>

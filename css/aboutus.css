@@ -1,0 +1,35 @@
+/* General about us styling */
+.aboutUs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header"
+        "content content";
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling about us Header */
+.aboutUs__header {
+    text-align: center;
+    font-size: 3em;
+    grid-area: header;
+    text-transform: uppercase;
+}
+
+/* Styling about us content */
+.aboutUs__content {
+    width: 480px;
+    font-size: 0.875em;
+    font-weight: lighter;
+}
+.aboutUs__content p {
+    margin-bottom: 15px;
+}
+
+
+/* Styling the enhanced text */
+.aboutUs__enhance {
+    font-size: 1.125em;
+}

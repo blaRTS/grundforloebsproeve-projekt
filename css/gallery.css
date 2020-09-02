@@ -1,0 +1,42 @@
+#gallery{
+    display: grid;
+    grid-template-columns: auto repeat(3, 1fr) auto;
+    grid-column-gap: 5%;
+}
+
+
+#left, #right{
+    align-self: center;
+    font-size: 2em;
+}
+
+
+.opskrift{
+    display: grid;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 8em 0;
+    overflow: hidden;
+}
+.caption, .opskrift img{
+    grid-area: 1/1/1/1;
+}
+.caption{
+    align-self: flex-end;
+    color: #FFF;
+    padding: 1em;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(100px);
+}
+.caption p{
+    padding: 0;
+}
+.caption__bold{
+    font-weight: 800;
+}
+
+.opskrift:hover .caption{
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transform: translateY(0px);
+}
