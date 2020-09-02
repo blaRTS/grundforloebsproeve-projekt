@@ -1,0 +1,28 @@
+.aboutUs__header {
+    text-align: center;
+    font-size: 3em;
+    grid-area: header;
+    text-transform: uppercase;
+}
+
+.aboutUs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header"
+        "content content";
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.aboutUs__content {
+    width: 480px;
+    font-size: 0.875em;
+    font-weight: lighter;
+}
+
+.aboutUs__enhance {
+    font-weight: 300;
+    font-size: 1.125em;
+}
