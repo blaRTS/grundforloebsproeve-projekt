@@ -1,1 +1,18 @@
+
 @import url("./main_image.css")
+@import "./navigation.css";
+@import "/css/main_image.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
