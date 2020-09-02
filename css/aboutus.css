@@ -24,6 +24,10 @@
     font-size: 0.875em;
     font-weight: lighter;
 }
+.aboutUs__content p {
+    margin-bottom: 15px;
+}
+
 
 /* Styling the enhanced text */
 .aboutUs__enhance {
