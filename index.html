@@ -3,12 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produkter</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800;1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kryb</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/87c28705a7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h2>PRODUKTER</h2>
+  <header>
+            <div id="head">
+                <form action="" class="searchbar">
+                    <button type="submit" class="fas fa-search"></button>
+                    <input type="search" name="search" id="search">
+                </form>
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo_small_black.png" alt="logo"></a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Forhandlere</a></li>
+                    <li><a href="#">Inspiration</a></li>
+                    <li><a href="#">Om kryb</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li class="right-nav"><a href="#"><i class="fas fa-shopping-bag"></i> ( 0 )</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="wrapper">
+
+        <section class="wrapper__h1Section">
+            <img class="h1Section__background" src="/images/background.jpg" alt="Main background">
+            <h1 class="h1Section__h1">
+                <img src="/images/white-logo.png" alt="Kryb logo">
+                – ET BEDRE VALG
+            </h1>
+        </section>
+          <h2>PRODUKTER</h2>
     <section class="products">
         <article class="product">
             <img class="productImage" src="/images/card1.jpg" alt="Dare Squares">
@@ -54,8 +86,8 @@
         </article>
 
     </section>
-
-
-
+    </div>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
