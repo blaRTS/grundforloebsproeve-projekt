@@ -29,5 +29,5 @@ function getProducts() {
  
     productView.appendChild(clone);
     });
-    });
+});
     
