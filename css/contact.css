@@ -2,20 +2,18 @@
 /* Setting our contact to be displayed as grid */
 .contact {
     display: grid;
-    width: 1200px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: 2em auto 5em;
     grid-template-columns: repeat(2, 480px);
     grid-template-rows: auto;
     grid-template-areas:
         "header header"
         "content content";
+    justify-content: center;
 }
 
 /* Styling header */
 .contact__header {
-    text-align: center;
-    font-size: 1.5em;
-    text-transform: uppercase;
     grid-area: header;
 }
 

@@ -8,14 +8,12 @@
         "content content";
     width: 1200px;
     margin: 0 auto;
+    justify-items: center;
 }
 
 /* Styling about us Header */
 .aboutUs__header {
-    text-align: center;
-    font-size: 3em;
     grid-area: header;
-    text-transform: uppercase;
 }
 
 /* Styling about us content */

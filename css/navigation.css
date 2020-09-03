@@ -42,7 +42,7 @@ nav ul li{
     border: none;
     outline: none;
 }
-nav button[type="submit"]{
+header button[type="submit"]{
     grid-column: 1/2;
     line-height: normal;
     align-self: center;
