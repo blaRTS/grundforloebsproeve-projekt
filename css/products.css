@@ -21,7 +21,7 @@ h2{
     grid-column-gap: 10%;
     grid-row-gap: 2em;
 }
-.productImage img{
+.productImage{
     margin-bottom: 10px;
     max-width: 135px;
 }
