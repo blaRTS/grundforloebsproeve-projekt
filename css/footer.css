@@ -21,12 +21,13 @@ footer{
 }
 .footerTexts{
     display: flex;
-    margin: 0 5%;
+    margin: 2em 5% 0;
     text-align: left;
     justify-content: center;
 }
 .footerText{
     flex: 1;
+    padding: 0 5%;
 }
 .textHeader{
     font-size: 18px;
