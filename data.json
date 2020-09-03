@@ -1,0 +1,35 @@
+{
+    "products":[
+    {
+        "name": "DARE SQUARES",
+        "desc": "med chilli, chokolade og fårekyllinger",
+        "price": "49,95/stk",
+        "image": ["./images/card1.jpg"]
+        }, {
+        "name": "INSEKTBAR",
+        "desc": "med dadler, nougat og insektmel",
+        "price": "19,95/stk",
+        "image": ["./images/card2.jpg"]
+        }, {
+        "name": "DARE SQUARES",
+        "desc": "med paenutbutter og Buffalo-orme",
+        "price": "49,95/stk",
+        "image": ["./images/card3.jpg"]
+        },{
+        "name": "INSEKTSNACK",
+        "desc": "med chilli",
+        "price": "39,95/stk",
+        "image": ["./images/card4.jpg"]
+        },{
+        "name": "INSEKTKNÆK",
+        "desc": "med Chiafrø og insektmel",
+        "price": "29,95/stk",
+        "image": ["./images/card5.jpg"]
+        },{
+        "name": "INSEKTSNACK",
+        "desc": "med Sour Cream & Onion",
+        "price": "39,95/stk",
+        "image": ["./images/card6.jpg"]    
+        }
+    ]
+}
