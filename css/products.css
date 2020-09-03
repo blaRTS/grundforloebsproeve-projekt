@@ -9,20 +9,21 @@ h2{
     font-weight: 1000;
     font-size: 50px;
     margin-bottom: 20px;
+    margin-top: 1em;
 }
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
-    width: 1200px;
+    max-width: 1200px;
     justify-content: center;
     text-align: center;
-}
-.product{
-    margin-bottom: 70px;
+    grid-column-gap: 10%;
+    grid-row-gap: 2em;
 }
 .productImage img{
     margin-bottom: 10px;
+    max-width: 135px;
 }
 .productTitle{
     font-size: 18px;
@@ -39,7 +40,7 @@ h2{
     margin-bottom: 20px;
 }
 .productBuy{
-    padding: 3px 50px;
+    padding: 3px 45px;
     background-color: #E3E3E3;
     font-size: 16px;
     color: black;

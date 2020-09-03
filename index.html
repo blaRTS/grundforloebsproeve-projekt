@@ -28,19 +28,19 @@
                     <li><a href="#">Inspiration</a></li>
                     <li><a href="#">Om kryb</a></li>
                     <li><a href="#">Kontakt</a></li>
-                    <li class="right-nav"><a href="#"><i class="fas fa-shopping-bag"></i> ( 0 )</a></li>
-                </ul>
-            </nav>
-        </header>
-
-
-        <section class="wrapper__h1Section">
-            <img class="h1Section__background" src="/images/background.jpg" alt="Main background">
-            <h1 class="h1Section__h1">
-                <img src="/images/white-logo.png" alt="Kryb logo">
-                – ET BEDRE VALG
-            </h1>
-        </section>
+                    <li class="right-nav"><a href="#"><i class="fas fa-shopping-bag"></i> ( <span id="varer">0</span> )</a></li>
+  	              </ul>
+   	         </nav>
+  	      </header>
+	
+	
+ 	       <section class="wrapper__h1Section">
+  	          <img class="h1Section__background" src="/images/background.jpg" alt="Main background">
+   	         <h1 class="h1Section__h1">
+  	              <img src="/images/white-logo.png" alt="Kryb logo">
+   	             – ET BEDRE VALG
+  	          </h1>
+ 	       </section>
 
       
           <h2>PRODUKTER</h2>
@@ -60,7 +60,7 @@
       <!-- Starting About Us section -->
     <article class="aboutUs">
         <!-- About us Header -->
-        <h1 class="aboutUs__header">Om Kryb</h1>
+        <h2 class="aboutUs__header">Om Kryb</h2>
         <!-- About us main content - Left side -->
         <section class="aboutUs__content">
 
@@ -101,24 +101,24 @@
         <section id="gallery">
             <i id="left" class="fas fa-chevron-circle-left"></i>
             <article class="opskrift">
-                <img src="images/opskrift0.jpg" alt="orme mad">
+                <img class="bigImg" src="images/opskrift0.jpg" alt="orme mad">
                 <div class="caption">
                     <p class="caption__bold">Orme-Muffins</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur elit, eiusmod inci et ...</p>
+                    <p class="caption__text">Lorem ipsum dolor sit amet, consectetur elit, eiusmod inci et ...</p>
                 </div>
             </article>
             <article class="opskrift">
-                <img src="images/opskrift1.jpg" lt="orme mad">
+                <img class="bigImg" src="images/opskrift1.jpg" lt="orme mad">
                 <div class="caption">
                     <p class="caption__bold">Orme-Gremolata</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur elit, eiusmod inci et ...</p>
+                    <p class="caption__text">Lorem ipsum dolor sit amet, consectetur elit, eiusmod inci et ...</p>
                 </div>
             </article>
             <article class="opskrift">
-                <img src="images/opskrift2.jpg" alt="orme mad">
+                <img class="bigImg" src="images/opskrift2.jpg" alt="orme mad">
                 <div class="caption">
                     <p class="caption__bold">Orme-Boller</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur elit, eiusmod inci et ...</p>
+                    <p class="caption__text">Lorem ipsum dolor sit amet, consectetur elit, eiusmod inci et ...</p>
                 </div>
             </article>
             <i id="right" class="fas fa-chevron-circle-right"></i>
@@ -126,7 +126,7 @@
  <!-- Start of contact section -->
         <article class="contact">
             <!-- Contact header -->
-            <h1 class="contact__header">Kontakt Kryb</h1>
+            <h2 class="contact__header">Kontakt Kryb</h2>
             <!-- 2 column design -->
             <section class="contact__content">
                 <!-- Left column - Text -->
@@ -184,31 +184,31 @@
         <article class="footerTexts">
             <article class="footerText">
                 <p class="textHeader">Om KRYB</p>
-                <a href="#" class="text">Historien</a> <br>
-                <a href="#" class="text">Virksomheder og afdelinger</a> <br>
-                <a href="#" class="text">Job</a> <br>
+                <a href="#" class="text">Historien</a>
+                <a href="#" class="text">Virksomheder og afdelinger</a>
+                <a href="#" class="text">Job</a>
                 <a href="#" class="text">CSR</a>
                 <a href="#" class="text">Danmark mod Madspild</a>
                 <a href="#" class="text">Foregin suppliers</a>
             </article>
             <article class="footerText">
                 <p class="textHeader">INSPIRATION</p>
-                <a href="#" class="text">Vin & Mad</a> <br>
-                <a href="#" class="text">Opskrifter</a> <br>
+                <a href="#" class="text">Vin & Mad</a>
+                <a href="#" class="text">Opskrifter</a>
                 <a href="#" class="text">Sociale medier</a>
                 <a href="#" class="text">Gaver Privat</a>
             </article>
             <article class="footerText">
                 <p class="textHeader">OM HANDEL</p>
                 <a href="#" class="text">Handelsbetingelser</a>
-                <a href="#" class="text">Beskyttelse af personlige <br>oplysninger</a>
+                <a href="#" class="text">Beskyttelse af personlige oplysninger</a>
                 <a href="#" class="text">Levering</a>
-                <a href="#" class="text">Fødevarestyrelsens<br>smiley-rapporter</a>
+                <a href="#" class="text">Fødevarestyrelsens smiley-rapporter</a>
             </article>
             <article class="footerText">
                 <p class="textHeader">KONTAKT</p>
                 <a href="#" class="text">Telefon (+45) 12345678</a>
-                <a href="mailto:info@kryb.dk" class="text">info@kryb.dk</a>
+                <a href="mailto:info@kryb.dk" class="text mailto">info@kryb.dk</a>
                 <a href="#" class="text">Butikker/Åbningstider</a>
             </article>
         </article>
@@ -219,7 +219,11 @@
     
 
     </div>
+
     <script src="./js/script.js" type="module"></script>
+
+    <script src="./js/app.js"></script>
+
 </body>
 
 </html>
