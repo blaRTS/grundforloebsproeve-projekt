@@ -6,7 +6,7 @@
     grid-template-areas:
         "header header"
         "content content";
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     justify-items: center;
 }
@@ -18,7 +18,7 @@
 
 /* Styling about us content */
 .aboutUs__content {
-    width: 480px;
+    max-width: 480px;
     font-size: 0.875em;
     font-weight: lighter;
 }

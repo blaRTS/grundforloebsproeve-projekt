@@ -4,6 +4,7 @@ footer{
     margin: 0 auto;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
+    padding-bottom: 2em;
 }
 .socialImages{
     padding: 100px 0 50px;
@@ -20,13 +21,12 @@ footer{
 }
 .footerTexts{
     display: flex;
-    margin: 0 auto;
+    margin: 0 5%;
     text-align: left;
     justify-content: center;
-    width: 100%;
 }
 .footerText{
-    margin: 40px;
+    flex: 1;
 }
 .textHeader{
     font-size: 18px;
@@ -38,4 +38,12 @@ footer{
     text-decoration: none;
     font-size: 16px;
     margin: 0px;
+    display: block;
+}
+.mailto{
+    display: block;
+    margin-bottom: 1em;
+}
+.text:hover{
+    text-decoration: underline;
 }
