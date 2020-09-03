@@ -53,13 +53,3 @@ function change(e) {
     tekst[i].textContent = textArray[index];
   }
 }
-
-//Tæl op i kurven
-let antal = 1;
-const varer = document.querySelector("#varer");
-const buttons = document.querySelectorAll(".productBuy");
-for (let i = 0; i < buttons.length; i++) {
-	buttons[i].addEventListener("click", function kurv() {
-		varer.textContent = antal++;
-	});
-}
