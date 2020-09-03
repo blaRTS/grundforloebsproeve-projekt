@@ -9,7 +9,7 @@ function getProducts() {
 }
 
 
-function showProducts() {
+
     getProducts()
     .then(function(products) {
     let productTemplate = window.productDetails;
@@ -30,6 +30,4 @@ function showProducts() {
     productView.appendChild(clone);
     });
     });
-    }
-
-export { getProducts, showProducts };
+    
